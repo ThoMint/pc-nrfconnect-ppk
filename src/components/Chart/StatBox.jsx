@@ -43,7 +43,7 @@ import { formatDurationHTML } from '../../utils/duration';
 import './statbox.scss';
 
 const Value = ({ label, u }) => {
-    const v = u.format({ notation: 'fixed', precision: 2 });
+    const v = u.format({ notation: 'fixed', precision: 5 });
     const [valStr, unitStr] = v.split(' ');
     return (
         <div className="value-box">

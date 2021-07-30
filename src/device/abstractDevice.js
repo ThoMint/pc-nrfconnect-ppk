@@ -55,6 +55,9 @@ export function convertFloatToByteBuffer(floatnum) {
 
 export default class Device extends EventEmitter {
     currentVdd = 0;
+    prevVdd = 0;
+    debugCounter = 0;
+    debugTrigger = 100000;
 
     triggerWindowRange = { min: 1, max: 10 };
 

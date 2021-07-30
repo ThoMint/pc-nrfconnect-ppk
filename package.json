@@ -47,7 +47,13 @@
     "react-redux": "7.2.0",
     "redux-mock-store": "^1.5.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "2d-bicubic-interpolate": "^1.0.7",
+    "cubic-spline": "^3.0.3",
+    "regression-multivariate-polynomial": "^1.1.0",
+    "simple-bilinear-interpolation": "^1.0.6",
+    "split-array": "^1.0.1"
+  },
   "eslintConfig": {
     "extends": "./node_modules/pc-nrfconnect-shared/config/eslintrc.json"
   },

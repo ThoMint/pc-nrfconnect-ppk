@@ -113,6 +113,7 @@ const onSample = (dispatch, getState) => {
         }
 
         let zeroCappedValue = zeroCap(value);
+        // let zeroCappedValue = value;
         const b16 = convertBits16(bits);
 
         if (samplingRunning && sampleFreq < maxSampleFreq) {
