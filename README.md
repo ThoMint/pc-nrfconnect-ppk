@@ -3,6 +3,12 @@
 Power Profiler app for
 [nRF Connect](https://github.com/NordicSemiconductor/pc-nrfconnect-launcher).
 
+## Modifications
+This fork is a modified version of the original Power-Profiling-App for the PPK2.
+It contains changes to work with a modified hardware version of the PPK2.
+The changes include a wider measurement range and diffrent calibration model.
+Further documentation on the mod can be found within the parent repository: [PPK2-Mod](https://github.com/ThoMint/PPK2-Mod).
+
 ## Introduction
 
 _nRF Connect Power Profiler_ is a tool to communicate with the
